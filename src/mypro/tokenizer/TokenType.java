@@ -1,6 +1,7 @@
 package mypro.tokenizer;
 
 public enum TokenType {
+    EMPTY,
     /* for example  ( ) = ,  */
     TOKEN,
     /* First character is a letter, any proceeding characters are letters or numbers     */
